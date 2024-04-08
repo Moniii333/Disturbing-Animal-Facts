@@ -19,6 +19,10 @@ const data = [
     name: 'Camels',
     fact: 'Camels have evolved canine teeth for the purpose of biting off the testicles of other male camels.',
   },
+  {
+    name: 'Lions',
+    fact: 'When a lion takes over a pride, they will kill the offspring in the pride to get rid of future rivals.',
+  },
 ];
 
 export { data };

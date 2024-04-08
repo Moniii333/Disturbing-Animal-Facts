@@ -1,0 +1,22 @@
+#card-container {
+  width: 70%;
+  border: 2px solid white;
+  text-align: center;
+  display: flex;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fact {
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#animal-name {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}

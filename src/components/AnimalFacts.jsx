@@ -6,8 +6,8 @@ export default function AnimalFacts() {
       {data.map((fact, index) => {
         if(index === randomData) {
           return <div key={index}>
-            <h3>{fact.name}</h3>
-            <span>
+            <h3 id='animal-name'>{fact.name}</h3>
+            <span id='fact'>
               <p>{fact.fact}</p>
             </span>
           </div>
