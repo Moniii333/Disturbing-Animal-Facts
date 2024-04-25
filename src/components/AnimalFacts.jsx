@@ -1,6 +1,6 @@
 import { data } from './data.js'
 export default function AnimalFacts() {
-  const randomData = Math.floor(Math.random() * data.length);
+  const randomData = Math.floor(Math.random() * data.length) + 1;
   return(
     <div id="card-container">
       {data.map((fact) => {
